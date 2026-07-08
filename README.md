@@ -51,7 +51,7 @@ Requires Python with `mcp`, `anthropic`, `pandas`, `requests`, `python-dotenv`.
      "mcpServers": {
        "faers_query": {
          "command": "/home/dada/anaconda3/bin/python",
-         "args": ["/home/dada/Barn/GQ/ADR/Meetings/Yale_talk/utils/mcp_faers_server.py"]
+         "args": ["/<your_path>/utils/mcp_faers_server.py"]
        }
      }
    }
@@ -76,7 +76,7 @@ Claude calls the tools automatically — no copy-paste.
 /home/dada/anaconda3/bin/python utils/faers_agent.py
 # or target a specific quarter / output dir:
 /home/dada/anaconda3/bin/python utils/faers_agent.py \
-  "Download and merge FAERS 2025 Q4 into /home/dada/Barn/GQ/ADR/Meetings/Yale_talk"
+  "Download and merge FAERS 2025 Q4 into <your_path>"
 ```
 
 Claude chooses the call order (discover → download → merge) and prints a trace plus a
