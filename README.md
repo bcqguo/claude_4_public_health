@@ -138,3 +138,5 @@ reporting system.
    ```
 
 **Done!** You have successfully installed the Claude CLI.
+
+## Copy skills into a global **CLAUDE.md** file from https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md  
